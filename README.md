@@ -14,6 +14,11 @@ Go into the main folder of the project
 npm install
 ```
 
+## UI
+
+![image](https://github.com/sacgupta96/Countdown/assets/22542053/68499bbe-891b-46ab-bb5e-7460188b69e5)
+
+
 ## Usage
 
 ```bash
