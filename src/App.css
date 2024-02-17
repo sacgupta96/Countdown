@@ -1,0 +1,69 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+
+input {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-size: xxx-large;
+}
+
+span {
+    font-size: xxx-large;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.start {
+    background: green;
+}
+
+.pause {
+    background: orange;
+}
+
+.reset {
+    background: red;
+}
